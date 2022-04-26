@@ -1,3 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  background-color: rgb(178, 177, 177);
+
+
+}
+
+.principal {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 70%;
+  display: block;
+  background-color: #313131;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: inset -4px -4px 12px rgba(0, 0, 0, 0.6), inset 4px 4px 12px rgb(255, 255, 255, 0.5);
+
+
+}
+
+.list-group-item {
+  
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px;
+  padding: 8px 0px;
+}
+.list-group-item:hover {
+  background-color: rgba(5, 4, 4, 0.205);
+}
+
+
+
+.play-btn {
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  padding:35px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0,0.6), inset 2px 2px 4px rgba(255, 255, 255, 0.5);
+  border:none;
+  outline: none;
+  background-color:rgba(0, 0, 0, 0.06);
+  font-size: 40px;
+  cursor: pointer;
+  color:white;
+}
+.play-btn:hover {
+  box-shadow: 2px 2px 4px rgba(45, 45, 45, 0.092), inset 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.backward-btn {
+  background: none;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+  border:none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+.backward-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 50px;
+}
+
+.pause-btn{
+  background: none;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+  border:none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.pause-btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 50px;
+}
+.forward-btn {
+ background: none;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+  border:none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.forward-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 50px;
+}
+
+/*audio {
+  margin-top: 30px;
+  float: right;
+  width: 30%;
+  
+}*/
+span{
+  background: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 1px 4px 0px 4px;
+  font-size: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0,0.6), inset 2px 2px 4px rgba(255, 255, 255, 0.5);
+  color:rgba(0, 0, 0, 0.481)
+}
+ol {
+  padding-left: 0px;
+}
+
+  
+
 
 /* 
 
